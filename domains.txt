@@ -8,8 +8,8 @@
 # Tested on: Hisense U8N TV, Hisense QAU6/QAU6PRO
 # 
 # Installation: Add this URL to Pi-hole Group Management → Adlists
-# https://raw.githubusercontent.com/jnmobilesoft/hisense-u8n-pihole-blocklist/main/domains.txt
-#
+# https://raw.githubusercontent.com/A-Australian/Hisense-Pihole-Blocklist/refs/heads/main/domains.txt
+
 # Categories blocked:
 # - Netflix telemetry endpoints  
 # - Amazon Video tracking
@@ -22,6 +22,8 @@
 # whitelist as per requirements
 
 
+||channelnewsasia.com^
+||meethue.com^
 ||a.root-servers.net^
 ||abtest-tv.vidaahub.com^
 ||acr.unruly.co^
@@ -56,7 +58,6 @@
 ||partner.vidaahub.com^
 ||pay-vidaa.vidaahub.com^
 ||policy-jrnl-af.vidaahub.com^
-||pool.ntp.org^
 ||recommend-ui-af.vidaahub.com^
 ||rsc-ads.vidaahub.com^
 ||secure.netflix.com^
