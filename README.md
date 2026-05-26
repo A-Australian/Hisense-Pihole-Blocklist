@@ -1,13 +1,13 @@
-# hisense-u8n-pihole-blocklist
-Pi-hole blocklist for Hisense Smart U8N TVs - blocks 100% telemetry / services /streaming except LAN
+# VIDAA OS Pihole Blocklist
+Pi-hole blocklist for Hisense VIDAA TVs - blocks 100% telemetry / services /streaming except LAN
 
 # Hisense Smart TV Pi-hole Blocklist 
 
-An aggressive, comprehensive blocklist for Hisense U8N Smart TVs to eliminate excessive telemetry and tracking while maintaining minimal TV functionality. Turns your TV back into a monitor that only streams LAN traffic. 
+An aggressive, comprehensive blocklist for Hisense VIDDA Smart TVs to eliminate excessive telemetry and tracking while maintaining minimal TV functionality. Turns your TV back into a monitor that only streams LAN traffic. 
 
 ## The Problem
 
-Hisense Smart U8N TVs generate an enormous amount of telemetry requests, more so if they are partially blocked - **up to 25,000 blocked requests per day** during just a few hours of TV usage. That's approximately **1.7 requests per second** while the TV is powered on.
+Hisense VIDAA TV's generates a whole bunch of telemetry, and a alot of DNS requests, **up to 25,000 blocked requests per day** during just a few hours of TV usage. That's approximately **1.7 requests per second** while the TV is powered on.
 
 The TV attempts to connect to various tracking and telemetry domains, and when blocked, it tries alternative domains (often at 2am when you're asleep). This creates:
 - Network congestion
@@ -17,7 +17,7 @@ The TV attempts to connect to various tracking and telemetry domains, and when b
 
 ## The Solution
 
-This blocklist was developed over several weeks by monitoring a Hisense U8N TV's network behavior and identifying all the domains it attempts to contact for telemetry purposes. The list blocks streaming, tracking and telemetry while preserving:
+This blocklist was developed over several weeks by monitoring VIDAA TV's network behavior and identifying all the domains it attempts to contact for telemetry purposes. The list blocks streaming, tracking and telemetry while preserving:
 
 ✅ **LAN/local network access**  
 
@@ -28,7 +28,7 @@ This blocklist was developed over several weeks by monitoring a Hisense U8N TV's
 
 ## Tested Hardware
 
-- **Primary:** Hisense U8N TV
+- **Primary:** Hisense QUA6 and U8N
 - **Likely compatible:** Other Hisense Smart TV models (U7, U6, A6, etc.)
 - **Feedback welcome:** Please report compatibility with other models
 
@@ -87,7 +87,7 @@ The blocklist targets these types of connections:
 - Smart hub analytics
 - Usage statistics collection
 - Advertisement profiling
-- NTP servers (when used for tracking)
+- IPTV Services
 
 ## Contributing
 
@@ -106,6 +106,7 @@ Found additional domains your Hisense TV is trying to reach? Please:
 | TV Model | Status | Reported By | Date |
 |----------|--------|-------------|------|
 | Hisense U8N | ✅ Fully Compatible | Original Author | 2025-06 |
+| Hisense QAU6 | ✅ Fully Compatible | A Australian | 2026-05 |
 | Hisense U7 | ❓ Needs Testing | - | - |
 | Hisense U6 | ❓ Needs Testing | - | - |
 
