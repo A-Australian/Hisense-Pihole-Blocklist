@@ -40,7 +40,7 @@ This blocklist was developed over several weeks by monitoring VIDAA TV's network
 2. Go to **Group Management** → **Adlists**
 3. Add this URL to import the blocklist:
    ```
-   https://raw.githubusercontent.com/jnmobilesoft/hisense-u8n-pihole-blocklist/main/domains.txt
+   https://raw.githubusercontent.com/A-Australian/Hisense-Pihole-Blocklist/refs/heads/main/domains.txt
    ```
 4. Go to **Tools** → **Update Gravity**
 5. Click **Update** to apply the new blocklist
