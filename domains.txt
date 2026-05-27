@@ -85,3 +85,6 @@
 ||tvguide.vidaa.com^
 ||ott.vidaa.com^
 ||vod.vidaa.com^
+||amagi.tv^
+||amagi.com^
+||kidoodle.tv^
