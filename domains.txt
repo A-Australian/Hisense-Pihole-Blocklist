@@ -69,3 +69,19 @@
 ||vidaa-base-auth-af.vidaahub.com^
 ||www.google.com^
 ||www.youtube.com^
+||vidaa.com^
+||vidaahub.com^
+
+# IPTV Fixes (Will block IPTV)
+||iptv.vidaa.com^
+||au-iptv.vidaa.com^
+||live.tv.vidaa.com^
+||content.vidaa.com^
+||epg.vidaa.com^
+||service.vidaa.com^
+||api-service.vidaa.com^
+||channelstore.vidaa.com^
+||config.vidaa.com^
+||tvguide.vidaa.com^
+||ott.vidaa.com^
+||vod.vidaa.com^
